@@ -35,13 +35,56 @@
 * {
 	box-sizing: border-box;
 	font-size: 100%;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
+
 body{
     background-color: #FAFAFA;
 }
+/****Código abaixo está em MobileFirst****/
+main {
+	background-color: #CCC;
+	margin: auto;
+}
+nav {
+	background: #333;
+}
+@media(max-width: 48em){
+	main {
+		width: 80%;
+	}
+	/* Grids */
+	.row .metade1{
+		width: 100%;
+	}
+	.row .metade2{
+		width: 100%;
+	}
+	/* menu */
+	nav {
+		height: 60em;
+	}
+	nav ul {
+		height: 50em;
+	}
+
+	nav ul a {
+		display: block;
+	}
+
+	nav form {
+		margin: auto;
+	}
+}
+
 /****Código abaixo está em FirstDesk****/
+main {
+	background-color: #fff;
+	margin: auto;
+	max-width: 990px;
+	height: 700px;     	
+}
 /*container*/
 main{
  background-color: #fff;
@@ -59,21 +102,27 @@ main{
 	float: left;
     padding: 15px;   
 }
-.colunaFull{width: 400px;}
-.metade1{width: 500px;}
-.metade2{width: 400px;}
-.tresColunas{width: 328px;}
+.colunaFull{width: 100%;}
+.metade1{width: 50%;}
+.metade2{width: 50%;}
+.tresColunas{width: 33%;}
 /*Header*/
-header{background-color: #2E7D32; height: 100px;}
-header .container{padding: 10px 10px;}
+header{
+	background-color: #2E7D32; 
+	min-height: 7em;
+	max-height: 100%;
+}
+header .container{
+	padding: 0.6em 0.8em;
+}
 header h1{
 	color: #fff; 
 	font-family: 'Montserrat', sans-serif;
-	font-size: 50px;
+	font-size: 4.15rem;
 }
 header h1:after{
 	content:"Campus Bambuí";
-	font-size: 12px;
+	font-size: 1rem;
 }
 /*Menu*/
 nav{
@@ -85,7 +134,9 @@ nav{
 nav ul{width: 591px;}
 nav form{width: 293px;}
 nav> ul, nav> form{float: left;}
-nav> form input[type="search"], nav> form input[type="submit"]{position: relative;}
+nav> form input[type="search"], nav> form input[type="submit"]{
+	position: relative;
+}
 nav> form input[type="search"]{
 	border: none;	
 	padding: 7px;	
@@ -128,7 +179,7 @@ section a:hover{
 section h2{
 	color: #4caf50;	
 	font-family: 'Montserrat', sans-serif;
-	font-size: 18px;
+	font-size: 1.125em;
 	text-transform: uppercase;	
 }
 section p{
@@ -146,7 +197,7 @@ footer{
 	background-color: #333;
 	color: #fff;
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 16px;
+	font-size: 1em;
 	height: 100px;
 	padding: 3px;
 }
