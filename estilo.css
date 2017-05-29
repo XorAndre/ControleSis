@@ -84,9 +84,9 @@ nav {
 		width: 100%;
 	}
 
-	nav form button{
+	nav form input[type="submit"]{
 		position: relative;
-		margin-top: 1rem;
+		top: 1rem;
 	}
 }
 
