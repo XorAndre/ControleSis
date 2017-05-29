@@ -129,9 +129,8 @@ header h1:after{
 }
 /*Menu*/
 nav{
-	background: #333;
-	height: 5em;
-	padding: 0.62em;
+	background: #333;	
+	padding: 0.8em 0 2rem 0.8rem;
 }
 nav ul{width: 58%;}
 nav form{width: 28%;}
