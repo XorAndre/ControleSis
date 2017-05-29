@@ -192,10 +192,10 @@ section p{
 }
 /*button*/
 .button{
-	border: 1px solid #333;	
-	padding: 8px;
+	border: 0.064em solid #333;	
+	padding: 0.5em;
 	position: relative;
-	top: 13px;
+	top: 1.82em;
 }
 /*Footer*/
 footer{
