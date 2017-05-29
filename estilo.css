@@ -1,0 +1,152 @@
+@charset "utf-8";
+/*
+    Código feito por André Rodrigues 
+    Versão 0.1
+    
+▀░░░░░░░░░░░▀▀███████░░░░
+░░█▌░░░░░░░░░░░░░░░▀██████░░░
+░█▌░░░░░░░░░░░░░░░░███████▌░░
+░█░░░░░░░░░░░░░░░░░████████░░
+▐▌░░░░░░░░░░░░░░░░░▀██████▌░░
+░▌▄███▌░░░░▀████▄░░░░▀████▌░░
+▐▀▀▄█▄░▌░░░▄██▄▄▄▀░░░░████▄▄░
+▐░▀░░═▐░░░░░░══░░▀░░░░▐▀░▄▀▌▌
+▐░░░░░▌░░░░░░░░░░░░░░░▀░▀░░▌▌
+▐░░░▄▀░░░▀░▌░░░░░░░░░░░░▌█░▌▌
+░▌░░▀▀▄▄▀▀▄▌▌░░░░░░░░░░▐░▀▐▐░
+░▌░░▌░▄▄▄▄░░░▌░░░░░░░░▐░░▀▐░░
+░█░▐▄██████▄░▐░░░░░░░░█▀▄▄▀░░
+░▐░▌▌░░░░░░▀▀▄▐░░░░░░█▌░░░░░░
+░░█░░▄▀▀▀▀▄░▄═╝▄░░░▄▀░▌░░░░░░
+░░░▌▐░░░░░░▌░▀▀░░▄▀░░▐░░░░░░░
+░░░▀▄░░░░░░░░░▄▀▀░░░░█░░░░░░░
+░░░▄█▄▄▄▄▄▄▄▀▀░░░░░░░▌▌░░░░░░
+░░▄▀▌▀▌░░░░░░░░░░░░░▄▀▀▄░░░░░
+▄▀░░▌░▀▄░░░░░░░░░░▄▀░░▌░▀▄░░░
+░░░░▌█▄▄▀▄░░░░░░▄▀░░░░▌░░░▌▄▄
+░░░▄▐██████▄▄░▄▀░░▄▄▄▄▌░░░░▄░
+░░▄▌████████▄▄▄███████▌░░░░░▄
+░▄▀░██████████████████▌▀▄░░░░
+▀░░░█████▀▀░░░▀███████░░░▀▄░░
+░░░░▐█▀░░░▐░░░░░▀████▌░░░░▀▄░
+░░░░░░▌░░░▐░░░░▐░░▀▀█░░░░░░░▀
+░░░░░░▐░░░░▌░░░▐░░░░░▌░░
+*/
+* {
+	box-sizing: border-box;
+	font-size: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+    background-color: #FAFAFA;
+}
+/****Código abaixo está em FirstDesk****/
+/*container*/
+main{
+ background-color: #fff;
+ margin: auto;
+ max-width: 990px;
+ height: 700px;     
+}
+/*Grids*/
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col"]{
+	float: left;
+    padding: 15px;   
+}
+.colunaFull{width: 400px;}
+.metade1{width: 500px;}
+.metade2{width: 400px;}
+.tresColunas{width: 328px;}
+/*Header*/
+header{background-color: #2E7D32; height: 100px;}
+header .container{padding: 10px 10px;}
+header h1{
+	color: #fff; 
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+}
+header h1:after{
+	content:"Campus Bambuí";
+	font-size: 12px;
+}
+/*Menu*/
+nav{
+	background: #333;
+	height: 40px;
+	padding: 10px;	
+	width: 990px;
+}
+nav ul{width: 591px;}
+nav form{width: 293px;}
+nav> ul, nav> form{float: left;}
+nav> form input[type="search"], nav> form input[type="submit"]{position: relative;}
+nav> form input[type="search"]{
+	border: none;	
+	padding: 7px;	
+	bottom: 5px;
+}
+nav> form input[type="submit"]{
+	background-color: #fff;
+	border: none;
+	bottom: 5px;
+	padding: 4px;
+}
+nav a{
+	color: #fff;
+	font-family: 'Josefin Sans', sans-serif;
+	margin: 3px;
+	padding: 2px 3px;
+	text-decoration: none;
+}
+/*Sections*/
+section .container{padding: 28px 39px;}
+section figure{position: relative;}
+section img{width: 100%;}
+section figure figcaption{
+	background-color: rgba(51, 51, 51, 0.73);
+	color: #fff;
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 10px;
+	position: absolute;
+	bottom: 20px;
+}
+section a{
+	color: #333;
+	text-decoration: none;
+}
+section a:hover{
+	background-color: #333;
+	color: #fff;
+	transition: 1s;
+}
+section h2{
+	color: #4caf50;	
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;	
+}
+section p{
+	font-family: 'Josefin Sans', sans-serif;
+}
+/*button*/
+.button{
+	border: 1px solid #333;	
+	padding: 8px;
+	position: relative;
+	top: 13px;
+}
+/*Footer*/
+footer{
+	background-color: #333;
+	color: #fff;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16px;
+	height: 100px;
+	padding: 3px;
+}
