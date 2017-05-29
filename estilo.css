@@ -41,6 +41,7 @@
 
 body{
     background-color: #FAFAFA;
+    overflow-x: hidden;
 }
 /****Código abaixo está em MobileFirst****/
 main {
@@ -217,6 +218,5 @@ footer{
 	color: #fff;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 1em;
-	height: 100px;
-	padding: 3px;
+	padding: 1rem;
 }
