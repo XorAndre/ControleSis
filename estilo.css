@@ -78,9 +78,15 @@ nav {
 	nav form {
 		margin: auto;
 		width: 100%;
+		padding: 1em;
 	}
 	nav form input[type="search"] {
-		width: 80%;
+		width: 100%;
+	}
+
+	nav form button{
+		position: relative;
+		margin-top: 1rem;
 	}
 }
 
