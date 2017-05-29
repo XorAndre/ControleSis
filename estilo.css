@@ -52,7 +52,7 @@ nav {
 	background: #333;
 	width: 100%;
 }
-@media(max-width: 48em){
+@media(min-width: 25em){
 	main {
 		width: 80%;
 		height: auto !important;
@@ -136,8 +136,8 @@ nav{
 	height: 40px;
 	padding: 10px;
 }
-nav ul{width: 58%;}
-nav form{width: 35%;}
+nav ul{width: 100%;}
+nav form{width: 100%;}
 nav> ul, nav> form{float: left;}
 nav> form input[type="search"], nav> form input[type="submit"]{
 	position: relative;
