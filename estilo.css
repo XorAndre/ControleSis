@@ -77,8 +77,7 @@ nav {
 
 	nav form {
 		margin: auto;
-		width: 100%;
-		padding: 1em;
+		width: 100%;		
 	}
 	nav form input[type="search"] {
 		width: 100%;
