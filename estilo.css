@@ -55,19 +55,19 @@ nav {
 @media(min-width: 20em){
 	main {
 		width: 80%;
-		height: auto !important;
+		height: auto;
 		background-color: pink;
 	}
 	/* Grids */
 	.footer {
-		height: auto !important;
+		height: auto;
 	}
 	.col1, .col2, .col3 {
-		width: 100% !important;
+		width: 100%;
 	}
 	/* menu */
 	nav {
-		height: auto !important;
+		height: auto;
 		min-height: 15.5em;
 	}
 	nav ul {
