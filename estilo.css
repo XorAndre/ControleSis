@@ -49,6 +49,7 @@ main {
 }
 nav {
 	background: #333;
+	width: 100%;
 }
 @media(max-width: 48em){
 	main {
@@ -63,10 +64,11 @@ nav {
 	}
 	/* menu */
 	nav {
-		height: 60em;
+		height: auto !important;
+		min-height: 15.5em;
 	}
 	nav ul {
-		height: 50em;
+		height: 11em;
 	}
 
 	nav ul a {
@@ -75,6 +77,10 @@ nav {
 
 	nav form {
 		margin: auto;
+		width: 100%;
+	}
+	nav form input[type="search"] {
+		width: 80%;
 	}
 }
 
@@ -128,8 +134,7 @@ header h1:after{
 nav{
 	background: #333;
 	height: 40px;
-	padding: 10px;	
-	width: 990px;
+	padding: 10px;
 }
 nav ul{width: 591px;}
 nav form{width: 293px;}
