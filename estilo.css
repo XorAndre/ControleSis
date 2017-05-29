@@ -54,6 +54,7 @@ nav {
 @media(max-width: 48em){
 	main {
 		width: 80%;
+		height: auto;
 	}
 	/* Grids */
 	.row .metade1{
@@ -65,7 +66,7 @@ nav {
 	/* menu */
 	nav {
 		height: auto !important;
-		min-height: 16.8em;
+		min-height: 15.5em;
 	}
 	nav ul {
 		height: 11em;
@@ -77,16 +78,16 @@ nav {
 
 	nav form {
 		margin: auto;
-		width: 100%;		
+		width: 100%;
+		/*padding: 1em;*/
 	}
 	nav form input[type="search"] {
-		width: 100%;
-		margin-bottom: 0.80rem;
+		width: 93%;
+		margin-bottom: 0.30rem;
 	}
 
 	nav form input[type="submit"]{
-		position: relative;
-		top: 1rem;
+		position: relative top 1rem;
 	}
 }
 
