@@ -109,9 +109,9 @@ main {
 	float: left;
     padding: 0.90rem;   
 }
-.col1{width: 100%;}
-.col2{width: 50%;}
-.col3{width: 33%;}
+.col1{width: 100% !important;}
+.col2{width: 50% !important;}
+.col3{width: 33% !important;}
 /*Header*/
 header{
 	background-color: #2E7D32; 
@@ -136,8 +136,8 @@ nav{
 	height: 40px;
 	padding: 10px;
 }
-nav ul{width: 100%;}
-nav form{width: 100%;}
+nav ul{width: 100% !important;}
+nav form{width: 35% !important;}
 nav> ul, nav> form{float: left;}
 nav> form input[type="search"], nav> form input[type="submit"]{
 	position: relative;
