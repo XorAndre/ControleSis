@@ -52,7 +52,7 @@ nav {
 	background: #333;
 	width: 100%;
 }
-@media(min-width: 25em){
+@media(min-width: 20em){
 	main {
 		width: 80%;
 		height: auto !important;
@@ -133,8 +133,8 @@ header h1:after{
 /*Menu*/
 nav{
 	background: #333;
-	height: 40px;
-	padding: 10px;
+	height: 5em;
+	padding: 0.62em;
 }
 nav ul{width: 100% !important;}
 nav form{width: 35% !important;}
@@ -159,6 +159,7 @@ nav a{
 	margin: 0.17rem;
 	padding: 0.1rem;
 	text-decoration: none;
+	display: inline;
 }
 /*Sections*/
 section .container{padding: 1.7em 2.4em;}
@@ -247,8 +248,8 @@ header h1:after{
 /*Menu*/
 nav{
 	background: #333;
-	height: 40px;
-	padding: 10px;
+	height: 5em;
+	padding: 0.62em;
 }
 nav ul{width: 58%;}
 nav form{width: 28%;}
