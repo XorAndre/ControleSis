@@ -54,11 +54,18 @@ nav {
 @media(max-width: 48em){
 	main {
 		width: 80%;
-		height: auto;
+		height: auto !important;
+		background-color: pink;
 	}
 	/* Grids */
 	.row .metade1{
 		width: 100%;
+	}
+	.footer {
+		height: auto !important;
+	}
+	.tresColunas {
+		width: 100% !important;
 	}
 	.row .metade2{
 		width: 100%;
