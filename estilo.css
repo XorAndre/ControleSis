@@ -43,6 +43,16 @@ body{
     background-color: #FAFAFA;
     overflow-x: hidden;
 }
+/*Grids*/
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col"]{
+	float: left;
+    padding: 0.90rem;   
+}
 /****Código abaixo está em MobileFirst****/
 main {
 	background-color: #CCC;
@@ -62,9 +72,7 @@ nav {
 	.footer {
 		height: auto;
 	}
-	.col1, .col2, .col3 {
-		width: 100%;
-	}
+	.col1, .col2, .col3 {width: 100%;}
 	/* menu */
 	nav {
 		height: auto;
@@ -99,16 +107,6 @@ main {
 	margin: auto;
 	max-width: 80%;
 }
-/*Grids*/
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-[class*="col"]{
-	float: left;
-    padding: 0.90rem;   
-}
 .col1{width: 100% !important;}
 .col2{width: 50% !important;}
 .col3{width: 33% !important;}
@@ -118,9 +116,7 @@ header{
 	min-height: 7em;
 	max-height: 100%;
 }
-header .container{
-	padding: 0.6em 0.8em;
-}
+header .container{padding: 0.6em 0.8em;}
 header h1{
 	color: #fff; 
 	font-family: 'Montserrat', sans-serif;
@@ -213,16 +209,6 @@ main {
 	background-color: #fff;
 	margin: auto;
 	max-width: 80%;
-}
-/*Grids*/
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-[class*="col"]{
-	float: left;
-    padding: 0.90rem;   
 }
 .col1{width: 100%;}
 .col2{width: 50%;}
